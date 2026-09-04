@@ -671,6 +671,66 @@ export default function MaleekaPortfolio() {
         </div>
       </section>
 
+      {/* ACHIEVEMENTS */}
+      <section id="achievements" className="px-6 py-20 bg-emerald-50/60 border-y border-emerald-900/5">
+        <div className="max-w-6xl mx-auto">
+          <div className="max-w-xl">
+            <p className="text-[12px] font-semibold text-emerald-700 uppercase tracking-wide">Milestones</p>
+            <h2 className="font-display font-semibold text-3xl sm:text-4xl text-emerald-950 mt-3">
+              My Achievements
+            </h2>
+            <p className="mt-4 text-emerald-950/65 text-[15px] leading-relaxed">
+              Credentials and formal recognitions earned through hands-on design work.
+            </p>
+          </div>
+
+          <div className="mt-12 grid sm:grid-cols-2 gap-6">
+            <div className="group rounded-3xl border border-emerald-900/10 bg-white p-4 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-900/5 transition-all">
+              <div className="rounded-2xl overflow-hidden border border-emerald-900/5">
+                <img
+                  src="/certficate.jfif"
+                  alt="Certificate of completing the internship programme"
+                  className="w-full h-64 object-contain bg-white"
+                  draggable={false}
+                />
+              </div>
+              <div className="mt-4 px-1">
+                <p className="text-sm font-semibold text-emerald-950">Internship Programme Certificate</p>
+                <p className="text-[12px] text-emerald-950/55 mt-1">Successfully completed the graphic design internship programme.</p>
+              </div>
+            </div>
+
+            <a
+              href="/Internship-Letter.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="group rounded-3xl border border-emerald-900/10 bg-white p-5 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-900/5 transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="h-12 w-12 rounded-xl bg-emerald-50 border border-emerald-900/10 flex items-center justify-center mb-4">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6 text-emerald-800" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                    <path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2Z" />
+                    <path d="M9 13h6" />
+                    <path d="M9 17h6" />
+                  </svg>
+                </div>
+                <p className="text-sm font-semibold text-emerald-950">Internship Letter</p>
+                <p className="text-[12px] text-emerald-950/55 mt-1">Official internship offer and completion letter.</p>
+              </div>
+              <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-900/10 px-4 py-2 text-[13px] font-medium text-emerald-900 group-hover:bg-emerald-50 transition-colors">
+                <span>View document</span>
+                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* PROJECTS - INFINITE CAROUSEL */}
       <section id="projects" className="py-20 bg-emerald-950 overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 flex items-end justify-between flex-wrap gap-4 mb-12">

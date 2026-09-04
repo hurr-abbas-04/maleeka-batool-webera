@@ -688,7 +688,7 @@ export default function MaleekaPortfolio() {
             <div className="group rounded-3xl border border-emerald-900/10 bg-white p-4 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-900/5 transition-all">
               <div className="rounded-2xl overflow-hidden border border-emerald-900/5">
                 <img
-                  src="/certficate.jfif"
+                  src="/certficate.jpg"
                   alt="Certificate of completing the internship programme"
                   className="w-full h-64 object-contain bg-white"
                   draggable={false}

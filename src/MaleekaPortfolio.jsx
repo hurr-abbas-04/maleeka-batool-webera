@@ -692,15 +692,18 @@ export default function MaleekaPortfolio() {
               className="group rounded-3xl border border-emerald-900/10 bg-white p-5 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-900/5 transition-all flex flex-col justify-between"
             >
               <div>
-                <div className="h-12 w-12 rounded-xl bg-emerald-50 border border-emerald-900/10 flex items-center justify-center mb-4">
-                  <svg viewBox="0 0 24 24" className="h-6 w-6 text-emerald-800" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="3.5" y="3.5" width="17" height="17" rx="3" />
-                    <circle cx="12" cy="12" r="4" />
-                    <circle cx="17" cy="7" r="0.9" fill="currentColor" stroke="none" />
-                  </svg>
+                <div className="rounded-2xl overflow-hidden border border-emerald-900/5 bg-white">
+                  <img
+                    src="/certficate.jpg"
+                    alt="Certificate of completing the internship programme"
+                    className="w-full h-56 object-contain"
+                    draggable={false}
+                  />
                 </div>
-                <p className="text-sm font-semibold text-emerald-950">Internship Programme Certificate</p>
-                <p className="text-[12px] text-emerald-950/55 mt-1">Certificate of completing the internship programme.</p>
+                <div className="mt-4">
+                  <p className="text-sm font-semibold text-emerald-950">Internship Programme Certificate</p>
+                  <p className="text-[12px] text-emerald-950/55 mt-1">Certificate of completing the internship programme.</p>
+                </div>
               </div>
               <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-emerald-900/10 px-4 py-2 text-[13px] font-medium text-emerald-900 group-hover:bg-emerald-50 transition-colors">
                 <span>View certificate</span>
